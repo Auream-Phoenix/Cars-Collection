@@ -1,0 +1,145 @@
+﻿h1
+{
+	color: #3f3fcf;
+	font-family: Verdana;
+	padding: 5px;
+}
+h2
+{
+	color: #8f6f6f;
+	padding: 10px;
+}
+img{
+	margin: 8px 1px 8px 0px;
+}
+body
+{
+	color: #afffff;
+	background: #b5a789 url(../img/Toyota-Back.jpg) center center;
+	margin:0px;
+	border: 4px double #afafff;
+	font-family: Georgia, serif;
+	font-size: small;
+}
+body.Ferrari{
+	background: #b5a789 url(../img/Ferrari430Sc_Back.jpg) center center;
+}
+body.Ac
+{
+	background: #b5a789 url(../img/Ac_Back.jpg) center center;
+}
+body.Alfa{
+	background: #b5a789 url(../img/Alfa_Romeo_Back.jpg) center center;
+}
+body.Alfa_Carabo{
+	background: #b5a789 url(../img/Alfa_Romeo_Carabo.jpg) center center;
+}
+body.Alfa_Pandion{
+	background: #b5a789 url(../img/Alfa_Romeo_Pandion.jpg) center center;
+}
+header
+{
+	background: #675c47 url(../img/Z-Back.jpg) top right;
+	border: 4px double #afafff;
+	margin-bottom: 2px;
+	text-align: center;		
+}
+header.top{
+  padding: 0px 15px 0px;
+  margin: 5px;
+  height: 180px;
+}
+section#main, section#descrip
+{
+	display:table-cell;
+	padding: 0px 5px;
+	vertical-align: top;
+}
+div.principal{
+	margin: 10px;
+	float:right;
+	width: 300px;
+	height: 200px;
+	padding: 0px 3px 0px 3px;
+}
+div#des{
+	text-align: center;
+	background-color:rgba(0,0,0,0.6);
+	border: 4px double #afafff;
+	padding: 2px;
+}
+div#des1{
+	background-color:rgba(0,0,0,0.6);
+	border: 4px double #afafff;
+	padding: 2px;
+}
+div#des2{
+	background: #ffffff url(../img/Z-Back.jpg) center center;
+	border: 4px double #afafff;
+	padding: 5px 5px 5px 5px;
+	height: 190px;
+}
+aside{
+	border: 4px double #afafff;
+	display:table-cell;
+	font-size: 105%;
+	padding: 15px;
+	vertical-align: top;
+}
+footer{
+	background: #000000 url(../img/Z-Back.jpg) top center;
+	margin: 10px;
+	text-align:center;
+	border: 4px double #afafff;
+	padding: 10px;
+	font-size: 90%;
+}
+div#tableContainer{
+	display: table;
+	border-spacing: 10px;
+}
+div#tableRow{
+	display: table-row;
+}
+}
+a:link{
+	color: #ef2f2f;
+	text-decoration: none;
+}
+a:selected{
+	color: #f76c47;
+	text-decoration: none;
+}
+nav{
+	display: table-cell;
+	border: 3px double #afafff;
+	background: #2f2f2f url(../img/Y-Back.jpg) top center;
+	padding: 5px 5px 0px;
+	margin: 10px 10px 0px 10px;
+	width:150px;
+	font-family: Verdana;
+	font-size: 120%; 
+}
+nav ul{
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+	color: #3fafcf;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul li{
+	padding: 5px 10p 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited{
+	color: #3fafcf;
+	text-decoration: none;
+	font-weight: bold;
+}
+nav ul li a.selected{
+	backgroun-color: #ffffff;
+}
+ul #inferior{
+	font-size: 90%;
+	padding-left: 10px; 
+}
